@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: bankmanagementsystem-vertex
+    labels:
+        app: bankmanagementsystem-vertex
+spec:
+    replicas: 3
+    selector:
+        matchLabels:
+            app: bankmanagementsystem-vertex
+    template:
+        metadata:
+            labels:
+                app: bankmanagementsystem-vertex
+        spec:
+            containers:
+            - name: bankmanagementsystem-firebase
+              image: chinmay1234/docker-fbbms
+              ports:
+              - containerPort: 8080

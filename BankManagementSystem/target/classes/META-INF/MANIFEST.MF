@@ -1,0 +1,60 @@
+Manifest-Version: 1.0
+Built-By: win10
+Build-Jdk: 15.0.1
+Class-Path: lib/slf4j-api-2.0.0-alpha1.jar lib/slf4j-simple-2.0.0-alpha0
+ .jar lib/firebase-admin-7.1.1.jar lib/google-api-client-1.30.10.jar lib
+ /google-oauth-client-1.31.0.jar lib/google-http-client-jackson2-1.36.0.
+ jar lib/google-api-client-gson-1.30.10.jar lib/google-http-client-gson-
+ 1.36.0.jar lib/google-http-client-1.35.0.jar lib/httpcore-4.4.13.jar li
+ b/jsr305-3.0.2.jar lib/j2objc-annotations-1.3.jar lib/opencensus-api-0.
+ 24.0.jar lib/opencensus-contrib-http-util-0.24.0.jar lib/api-common-1.9
+ .2.jar lib/javax.annotation-api-1.3.2.jar lib/auto-value-annotations-1.
+ 7.2.jar lib/google-auth-library-oauth2-http-0.20.0.jar lib/google-auth-
+ library-credentials-0.20.0.jar lib/google-cloud-storage-1.110.0.jar lib
+ /failureaccess-1.0.1.jar lib/listenablefuture-9999.0-empty-to-avoid-con
+ flict-with-guava.jar lib/checker-compat-qual-2.5.5.jar lib/error_prone_
+ annotations-2.3.4.jar lib/jackson-core-2.11.0.jar lib/google-api-servic
+ es-storage-v1-rev20200430-1.30.9.jar lib/gson-2.8.6.jar lib/google-clou
+ d-core-1.93.6.jar lib/proto-google-common-protos-1.18.0.jar lib/google-
+ cloud-core-http-1.93.6.jar lib/google-http-client-appengine-1.35.0.jar 
+ lib/gax-httpjson-0.74.0.jar lib/gax-1.57.0.jar lib/grpc-context-1.30.0.
+ jar lib/proto-google-iam-v1-0.13.0.jar lib/protobuf-java-3.12.2.jar lib
+ /protobuf-java-util-3.12.2.jar lib/threetenbp-1.4.4.jar lib/google-clou
+ d-firestore-1.35.0.jar lib/google-cloud-core-grpc-1.93.6.jar lib/grpc-c
+ ore-1.30.0.jar lib/annotations-4.1.1.4.jar lib/perfmark-api-0.19.0.jar 
+ lib/commons-logging-1.2.jar lib/commons-codec-1.11.jar lib/proto-google
+ -cloud-firestore-admin-v1-1.35.0.jar lib/proto-google-cloud-firestore-v
+ 1-1.35.0.jar lib/proto-google-cloud-firestore-v1beta1-0.88.0.jar lib/op
+ encensus-contrib-grpc-util-0.24.0.jar lib/grpc-protobuf-1.30.0.jar lib/
+ grpc-protobuf-lite-1.30.0.jar lib/animal-sniffer-annotations-1.18.jar l
+ ib/grpc-api-1.30.0.jar lib/gax-grpc-1.57.0.jar lib/grpc-auth-1.30.0.jar
+  lib/grpc-netty-shaded-1.30.0.jar lib/grpc-alts-1.30.0.jar lib/grpc-grp
+ clb-1.30.0.jar lib/commons-lang3-3.5.jar lib/conscrypt-openjdk-uber-2.2
+ .1.jar lib/grpc-stub-1.30.0.jar lib/guava-29.0-android.jar lib/netty-co
+ dec-http-4.1.59.Final.jar lib/netty-common-4.1.59.Final.jar lib/netty-b
+ uffer-4.1.59.Final.jar lib/netty-codec-4.1.59.Final.jar lib/netty-handl
+ er-4.1.59.Final.jar lib/netty-resolver-4.1.59.Final.jar lib/netty-trans
+ port-4.1.59.Final.jar lib/vertx-web-3.5.1.jar lib/vertx-auth-common-3.5
+ .1.jar lib/vertx-bridge-common-3.5.1.jar lib/vertx-core-3.5.1.jar lib/n
+ etty-handler-proxy-4.1.19.Final.jar lib/netty-codec-socks-4.1.19.Final.
+ jar lib/netty-codec-http2-4.1.19.Final.jar lib/netty-resolver-dns-4.1.1
+ 9.Final.jar lib/netty-codec-dns-4.1.19.Final.jar lib/jackson-databind-2
+ .9.3.jar lib/jackson-annotations-2.9.0.jar lib/java-client-2.6.2.jar li
+ b/core-io-1.6.1.jar lib/couchbase-driver-0.0.9.jar lib/diana-document-0
+ .0.9.jar lib/diana-core-0.0.9.jar lib/jnosql-query-antlr-0.0.9.jar lib/
+ antlr4-runtime-4.7.2.jar lib/diana-key-value-0.0.9.jar lib/diana-driver
+ -commons-0.0.9.jar lib/artemis-document-0.0.9.jar lib/artemis-core-0.0.
+ 9.jar lib/jnosql-query-api-0.0.9.jar lib/rxjava-1.3.7.jar lib/opentraci
+ ng-api-0.31.0.jar lib/httpclient-4.5.3.jar lib/cucumber-java-6.10.2.jar
+  lib/cucumber-core-6.10.2.jar lib/cucumber-gherkin-6.10.2.jar lib/cucum
+ ber-gherkin-messages-6.10.2.jar lib/messages-14.0.1.jar lib/tag-express
+ ions-3.0.0.jar lib/cucumber-expressions-10.3.0.jar lib/datatable-3.5.0.
+ jar lib/cucumber-plugin-6.10.2.jar lib/docstring-6.10.2.jar lib/html-fo
+ rmatter-12.0.0.jar lib/create-meta-3.0.0.jar lib/apiguardian-api-1.1.1.
+ jar lib/javax.ws.rs-api-2.1.1.jar lib/spring-context-4.3.4.RELEASE.jar 
+ lib/spring-aop-4.3.4.RELEASE.jar lib/spring-beans-4.3.4.RELEASE.jar lib
+ /spring-core-4.3.4.RELEASE.jar lib/spring-expression-4.3.4.RELEASE.jar 
+ lib/spring-web-4.3.4.RELEASE.jar
+Main-Class: project.BankManagementSystem.App
+Created-By: Maven Integration for Eclipse
+

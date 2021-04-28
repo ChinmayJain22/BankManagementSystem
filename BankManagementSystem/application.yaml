@@ -1,0 +1,3 @@
+logging.file.name = C:/Users/win10/OneDrive/Desktop/logs/elk-stack.log
+
+application.name = BankManagementSystem

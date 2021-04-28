@@ -1,0 +1,97 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-05T10:18:40.374Z",
+        "line": 42,
+        "name": "To Apply for loan to customer",
+        "description": "",
+        "id": "bankmanagement-scenario;to-apply-for-loan-to-customer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1064998200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I am on login page with \"chinnu\" and \"qwerty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chinnu\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"qwerty\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.logoutSteps.i_am_on_login_page_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.springframework.web.client.HttpServerErrorException: 500 Internal Server Error\r\n\tat org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:94)\r\n\tat org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:667)\r\n\tat org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:620)\r\n\tat org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)\r\n\tat org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:380)\r\n\tat steps.applyforloansteps.the_customer_applies_for_loan_and_and_and_and(applyforloansteps.java:45)\r\n\tat ✽.the customer applies for loan \"carloan\" and \"123355\" and \"12-12-2021\" and \"10.5\" and \"5\"(file:///D:/learningcucumber/BankManagementSystem/features/Bank_Management_System.feature:37)\r\n",
+              "duration": 320998600,
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "the customer applies for loan \"carloan\" and \"123355\" and \"12-12-2021\" and \"10.5\" and \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"carloan\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"123355\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"12-12-2021\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"10.5\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 85
+                }
+              ],
+              "location": "steps.applyforloansteps.the_customer_applies_for_loan_and_and_and_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "I verify the \u003cstatuscode\u003e",
+            "match": {
+              "location": "steps.loginsteps.i_verify_the_statuscode()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@P4"
+          }
+        ]
+      }
+    ],
+    "name": "BankManagement Scenario",
+    "description": "",
+    "id": "bankmanagement-scenario",
+    "keyword": "Feature",
+    "uri": "file:features/Bank_Management_System.feature",
+    "tags": []
+  }
+]
