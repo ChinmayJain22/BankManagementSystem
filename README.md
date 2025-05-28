@@ -1,6 +1,18 @@
 # BankManagementSystem
 
-json object
+A Spring Boot-based backend application to manage user registration, login, and loan application using REST APIs.
+
+Features
+   - User registration
+   - Secure login authentication
+   - Loan application system
+   - RESTful API integration
+   - 
+Technologies Used
+    - Java
+    - Spring Boot
+    - JSON (for request/response)
+    - REST API
 
 for /register
 "username":"chinu",
